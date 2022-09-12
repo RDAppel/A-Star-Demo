@@ -41,11 +41,11 @@ private:
 
 public:
 
-	DrawableVertex(const Vector2 position)
+	DrawableVertex(const Vector2 position, char label = '\0')
 		: Vertex(position)
 	{
 		int i = GetIndex();
-		m_label = (char)('A' + i);
+		m_label = (label == '\0') ? (char)('A' + i) : label;
 		m_circle.Radius = 30;
 		m_rectangle.Size.Set(50, 50);
 	}

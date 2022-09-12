@@ -33,21 +33,21 @@ public:
 	{
 		DrawableGraph *pGraph = new DrawableGraph();
 
-		DrawableVertex *pA = new DrawableVertex(Vector2(265, 227));
+		DrawableVertex *pA = new DrawableVertex(Vector2(265, 227), 'A');
 		pGraph->AddVertex(pA);
-		DrawableVertex *pB = new DrawableVertex(Vector2(336, 557));
+		DrawableVertex *pB = new DrawableVertex(Vector2(336, 557), 'B');
 		pGraph->AddVertex(pB);
-		DrawableVertex *pC = new DrawableVertex(Vector2(647, 361));
+		DrawableVertex *pC = new DrawableVertex(Vector2(647, 361), 'C');
 		pGraph->AddVertex(pC);
-		DrawableVertex *pD = new DrawableVertex(Vector2(642, 640));
+		DrawableVertex *pD = new DrawableVertex(Vector2(642, 640), 'D');
 		pGraph->AddVertex(pD);
-		DrawableVertex *pE = new DrawableVertex(Vector2(907, 509));
+		DrawableVertex *pE = new DrawableVertex(Vector2(907, 509), 'E');
 		pGraph->AddVertex(pE);
-		DrawableVertex *pF = new DrawableVertex(Vector2(1108, 698));
+		DrawableVertex *pF = new DrawableVertex(Vector2(1108, 698), 'F');
 		pGraph->AddVertex(pF);
-		DrawableVertex *pG = new DrawableVertex(Vector2(1070, 161));
+		DrawableVertex *pG = new DrawableVertex(Vector2(1070, 161), 'G');
 		pGraph->AddVertex(pG);
-		DrawableVertex *pH = new DrawableVertex(Vector2(1311, 369));
+		DrawableVertex *pH = new DrawableVertex(Vector2(1311, 369), 'H');
 		pGraph->AddVertex(pH);
 
 		pGraph->AddEdge(new DrawableEdge(pA, pB, 1));

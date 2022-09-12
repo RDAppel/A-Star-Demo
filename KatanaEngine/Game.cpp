@@ -32,7 +32,7 @@ namespace KatanaEngine
 
 		srand(time(nullptr));
 
-		m_requireOpenGL = false;
+		m_requireOpenGL = true;
 
 		m_pInput = nullptr;
 		m_pFrameCounterFont = nullptr;
